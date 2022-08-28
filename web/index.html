@@ -40,6 +40,24 @@
   <script src="flutter.js" defer></script>
 </head>
 <body>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBdBaLV2pbWectxK7Ao5WvIRfjWEHUt61I",
+      authDomain: "authtestappignis.firebaseapp.com",
+      projectId: "authtestappignis",
+      storageBucket: "authtestappignis.appspot.com",
+      messagingSenderId: "292361302156",
+      appId: "1:292361302156:web:b3dea5bbf1813dbfd78ba9",
+      measurementId: "G-33R8RF7F3W"
+    };
+    
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
