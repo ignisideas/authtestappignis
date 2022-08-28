@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "292361302156",
+    "project_id": "authtestappignis",
+    "storage_bucket": "authtestappignis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292361302156:android:bf71d072bb648905d78ba9",
+        "android_client_info": {
+          "package_name": "com.ignisideas.authtestappignis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292361302156-ptih10dvfsa6cvftmf92m3objbp7forj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCrl4aHb99VvRHVASrRpD4w5RZmboFOwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292361302156-ptih10dvfsa6cvftmf92m3objbp7forj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
